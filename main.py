@@ -1,7 +1,7 @@
 import argparse
 from compression import compress, decompress
 
-parser = argparse.ArgumentParser(description='Compress or decompress a text file', prog='Huffman Compression', usage='%(prog)s [options] file')
+parser = argparse.ArgumentParser(description='Compress or decompress a text file', prog='main.py', usage='%(prog)s [options] file')
 
 parser.add_argument('file', type=str, help='File to compress or decompress')
 parser.add_argument('-c', '--compress', action='store_true', help='Compress a text file')
